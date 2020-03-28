@@ -3,6 +3,10 @@
 
 An online, interactive 3D dice roller that utlilises `three.js` and `cannon.js`. Allows dynamic, physics-based rolling of any combination of d4, d6, d8, d10, d12, d20 and d100.
 
+### Usage
+
+> To be added
+
 ### Demo
 
 > To be added
