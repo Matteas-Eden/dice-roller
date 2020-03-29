@@ -37,14 +37,47 @@ function dice_initialize(container) {
     if (params.shadows == 0) {
         $t.dice.use_shadows = false;
     }
-    if (params.color == 'white') {
+    switch (params.color) {
+        case 'white':
+            $t.dice.dice_color = '#808080';
+            $t.dice.label_color = '#202020';
+            break;
+        case 'red':
+            $t.dice.dice_color = '#d10e00';
+            $t.dice.label_color = '#202020';
+            break;
+        case 'blue':
+            $t.dice.dice_color = '#1883db';
+            $t.dice.label_color = '#202020';
+            break;
+        case 'green':
+            $t.dice.dice_color = '#008a17';
+            $t.dice.label_color = '#202020';
+            break;
+        case 'orange':
+            $t.dice.dice_color = '#fc7b03';
+            $t.dice.label_color = '#202020';
+            break;
+        case 'purple':
+            $t.dice.dice_color = '#7d0099';
+            $t.dice.label_color = '#aaaaaa';
+            break;
+        case 'brown':
+            $t.dice.dice_color = '#593304';
+            $t.dice.label_color = '#aaaaaa';
+            break;
+        default:
+            break;
+    }
+    
+    /*if (params.color == 'white') {
         $t.dice.dice_color = '#808080';
         $t.dice.label_color = '#202020';
     }
     if (params.color == 'blue') {
         $t.dice.dice_color = '#1883db';
         $t.dice.label_color = '#202020';
-    }
+    }*/
 
     var box = new $t.dice.dice_box(canvas, { w: 500, h: 300 });
     box.animate_selector = false;
