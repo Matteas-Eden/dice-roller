@@ -41,7 +41,7 @@ function dice_initialize(container) {
         $t.dice.dice_color = '#808080';
         $t.dice.label_color = '#202020';
     }
-    else if (params.color == 'blue') {
+    if (params.color == 'blue') {
         $t.dice.dice_color == '#1883db';
         $t.dice.label_color == '#202020';
     }
