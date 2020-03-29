@@ -1,7 +1,7 @@
 # Interactive 3D Dice Roller
 ##### Sourced from [a.teal.info/dice](https://a.teal.info/dice)
 
-An online, interactive 3D dice roller that utlilises `three.js` and `cannon.js`. Allows dynamic, physics-based rolling of any combination of d4, d6, d8, d10, d12, d20 and d100.
+An online, interactive 3D dice roller that utlilises `three.js` and `cannon.js`. Using the API provided by [random.org](https://random.org), generates truly random rolls for any combination of d4, d6, d8, d10, d12, d20 and d100. The physics seen on-screen is merely for show - all values are derived from atmospheric noise.
 
 ### Usage
 
