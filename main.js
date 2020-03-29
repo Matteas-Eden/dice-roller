@@ -76,10 +76,12 @@ function dice_initialize(container) {
 
     function after_roll(notation, result) {
         if (params.chromakey || params.noresult) return;
-        var res = result.join(' ');
+        var res = result.join(' + ');
         if (notation.constant) {
-            if (notation.constant > 0) res += ' +' + notation.constant;
-            else res += ' -' + Math.abs(notation.constant);
+            res += '( ';
+            if (notation.constant > 0) res += '+ ' + notation.constant;
+            else res += '- ' + Math.abs(notation.constant);
+            res += ')';
         }
         if (result.length > 1) res += ' = ' + 
                 (result.reduce(function(s, a) { return s + a; }) + notation.constant);
