@@ -7,7 +7,7 @@ An online, interactive 3D dice roller that utlilises `three.js` and `cannon.js`.
 
 #### URL Parameters
 
-There are several parameters that can be passed into the URL. Namely *color*, *notation* and *roll*.
+There are several parameters that can be passed into the URL. To use a parameter, the syntax is `matteas.nz/dice-roller?<param>[=<value>]`
 
 ##### Color
 By adding `color=<color>` to the URL, you can change the colour of the dice. Without this parameter specified, the default is black. The currently supported colours are:
