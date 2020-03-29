@@ -42,8 +42,8 @@ function dice_initialize(container) {
         $t.dice.label_color = '#202020';
     }
     if (params.color == 'blue') {
-        $t.dice.dice_color == '#1883db';
-        $t.dice.label_color == '#202020';
+        $t.dice.dice_color = '#1883db';
+        $t.dice.label_color = '#202020';
     }
 
     var box = new $t.dice.dice_box(canvas, { w: 500, h: 300 });
