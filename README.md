@@ -5,7 +5,28 @@ An online, interactive 3D dice roller that utlilises `three.js` and `cannon.js`.
 
 ### Usage
 
-> To be added
+#### URL Parameters
+
+There are several parameters that can be passed into the URL. Namely *color*, *notation* and *roll*.
+
+##### Color
+By adding `color=<color>` to the URL, you can change the colour of the dice. Without this parameter specified, the default is black. The currently supported colours are:
+
+- White (#808080)
+- Blue (#1883db)
+- Red (#d10e00)
+- Green (#008a17)
+- Orange (#fc7b03)
+- Purple (#7d0099)
+- Brown (#593304)
+
+##### Notation
+
+> To be written
+
+##### Roll
+
+> To be written
 
 ### Demo
 
@@ -13,7 +34,7 @@ An online, interactive 3D dice roller that utlilises `three.js` and `cannon.js`.
 
 ### License
 
-*Interative 3D Dice Roller* is licensed under the MIT License.
+*Interactive 3D Dice Roller* is licensed under the MIT License.
 
 ### Copyright
 
