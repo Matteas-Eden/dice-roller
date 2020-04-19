@@ -111,9 +111,9 @@ function dice_initialize(container) {
         if (params.chromakey || params.noresult) return;
         var res = result.join(' + ');
         if (notation.constant) {
-            res += '( ';
-            if (notation.constant > 0) res += '+ ' + notation.constant;
-            else res += '- ' + Math.abs(notation.constant);
+            res += ' (';
+            if (notation.constant > 0) res += '+' + notation.constant;
+            else res += '-' + Math.abs(notation.constant);
             res += ')';
         }
         if (result.length > 1) res += ' = ' + 
