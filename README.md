@@ -26,7 +26,9 @@ By adding `color=<color>` to the URL, you can change the colour of the dice. Wit
 
 ##### Roll
 
-> To be written
+By adding `roll` to the URL, you can intiate a rolling of dice directly without
+the need to press the button on the site. There is no value associated with
+this parameter, so the usage is simply `matteas.nz/dice-roller?roll`.
 
 ### Demo
 
