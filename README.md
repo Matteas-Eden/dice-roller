@@ -36,6 +36,10 @@ By adding `roll` to the URL, you can intiate a rolling of dice directly without
 the need to press the button on the site. There is no value associated with
 this parameter, so the usage is simply `matteas.nz/dice-roller?roll`.
 
+##### Shadows
+
+To disable the rendering of shadows for rolled dice, add `shadows=0` to the URL. Note that this does not affect the shadows on the selection screen, only the shadows present during the rolling of dice.
+
 ### Demo
 
 > To be added
