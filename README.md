@@ -42,7 +42,7 @@ To disable the rendering of shadows for rolled dice, add `shadows=0` to the URL.
 
 ### Demo
 
-> To be added
+![](dice-roller-demo.gif)
 
 ### License
 
