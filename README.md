@@ -22,7 +22,13 @@ By adding `color=<color>` to the URL, you can change the colour of the dice. Wit
 
 ##### Notation
 
-> To be written
+By adding `notation=<notation>` to the URL, you can set the dice roll to be executed. This is useful when you want to know the result of a very specific dice roll without needing to first input that roll on the site. Note that `roll` is still needed to roll the dice without pressing the button on the site. This project uses the standard dice notation which you can read more about [here](https://en.wikipedia.org/wiki/Dice_notation). Some examples:
+
+| Notation | Result |
+| -------- | ------ |
+| 1d6      | A single 6-sided die |
+| 2d10     | Two 10-sided die |
+| 1d8 + 1d20 | A single 8-sided die and a single 20-sided die |
 
 ##### Roll
 
